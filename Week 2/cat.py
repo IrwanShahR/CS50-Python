@@ -1,2 +1,0 @@
-print("Meow")
-print("Meow")
