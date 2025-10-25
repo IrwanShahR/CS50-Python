@@ -7,7 +7,7 @@ def check_int():
             num = int(text[0])
             den = int(text[-1])
             try:
-                if num <= den and num > 0 and den > 0:
+                if num <= den and num >=0 and den > 0:
                     return round((num/den)*100)
             except:
                 pass
